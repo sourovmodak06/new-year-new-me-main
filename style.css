@@ -1,11 +1,92 @@
+/* Google fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
 }
+/* Banner section start */
+.banner img{
+    height: 100%;
+    width: 100%;
+}
+.banner-item{
+    position: absolute;
+    text-align: right;
+    top: 30%;
+    width: 35%;
+    right: 10%;
+}
+.banner-item h1{
+    color: #ffffff;
+    font-size: 65px;
+    font-weight: 700;
+}
+.banner-item p{
+    margin: 25px 0 30px 0;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.btn-primary{
+    color: #005FAC;
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+/* Banner section end */
+/* ================================= */
+/* main contents start */
+main{
+    margin: 130px 230px;
+}
+/* Failures year section start */
+.failures-year{
+    display: flex;
+    justify-content: space-between;
+}
+.failures-year img{
+    height: 520px;
+}
+.failures-year-item{
+    margin: 100px 0 0 85px;
+    /* margin-left: 85px; */
+    /* margin-top: 100px; */
+}
+.failures-year-item h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+.failures-year-item p{
+    margin-bottom: 16px;
+}
+.failures-year-item p,
+.failures-year-item ul li{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;    
+    color: #444343;
+}
+.failures-year-item ul li{
+    margin-top: 8px;
+    list-style: none;
+}
+.failures-year-item ul li i{
+    width: 24px;
+    height: 24px;
+    color: #008000d8;
+}
+/* Failures year section End */
 
 
 
+/* My Plans section start */
 
-
-
+/* My Plans section End */
